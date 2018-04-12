@@ -1,0 +1,1 @@
+{"title":"BC D3","message":"function phraseGenerator(phrase) {\nreturn function(name) {\nreturn phrase + ' ' + name;\n}\n}\n\nvar welcome = phraseGenerator('welcome to opspark');\n\nvar liv = welcome('jan');\n\nlogs welcome to opspark jan\n\nfunctions inside functions","id":"03a5c2d9-4e27-47e7-b1cd-ff15116dc5f1","date":"2018-04-12T00:26:52.930Z"}
